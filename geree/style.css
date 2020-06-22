@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.container > div {
+    width: 50%;
+    flex-direction: row;
+    padding: 10px 35px;
+    text-align: justify;
+}
+
+.table_2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table_2 th {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.table_2 td {
+    border: 1px solid black;
+}
+
+
+.main_title {
+    color: #416c39;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 30px;
+    font-style: Arial;
+}
+.second_title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #416c39;
+    border-radius: 10px;
+    padding: 6px 0px;
+    width: 50%;
+    font-size: 15px;
+    margin: 0 auto;
+    font-style: Arial;
+}
+.table_insurance {
+    border: 1px dashed #87b65b;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    padding: 5px 20px;
+    font-style: Arial;
+
+}
+
+.table_insurance td {
+    border: 1px dashed #87b65b;
+    padding: 5px 20px;
+    vertical-align: middle;
+    font-style: Arial;
+}
+
+.th_table {
+    border: 1px dashed #87b65b;
+    background-color: #87b65b;
+    text-align: center;
+    border-style: solid;
+    background-color: #87b65b;
+}
+
+.table_container {
+    padding: 10px 35px;
+}
+
+.list_from_table {
+    list-style-type: '□' ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header {
+    padding: 20px 40px 0px 40px;
+}
+
+.ub-dat {
+    width: 250px;
+    height: 90px;
+}
+
+.dates {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: Arial;
+}
+
+.signature_zone {
+    margin: 100px 0;
+    text-align: center;
+    color: #416c39;
+    font-style: Arial;
+}
+
+.signature_zone > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px 0;
+}
